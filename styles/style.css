@@ -1,0 +1,195 @@
+/*homepage code */
+.homepage{
+  background-color: grey;
+  background: url("../images/raging.gif") no-repeat fixed;
+  background-size:cover; 
+}
+.homepage h1{
+  color: red; 
+}
+
+.homepage h2{ 
+  font-family: 'Shrikhand', cursive;
+  font-size:200%;
+}
+
+.homepage li{
+  font-family: 'Spirax', cursive;
+  color: purple;
+}
+.homepage img {
+    height: 300px;
+    width: 40%;
+    background-color: powderblue;
+}
+
+.images{
+  display: flex;
+  justify-content: space-around;
+}
+.images{
+  display: flex;
+  justify-content: space-around;
+}
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content:space-around;
+  background-color: white;
+   /*width:100%;*/
+  height:4em;
+  margin:0;
+  align-items:center;
+  
+}
+nav-item{
+  align-items:row;
+
+}
+a:link{
+  color: blue;
+}
+a:visted{
+  color: white;
+}
+/*music code*/
+ main{
+   margin:0 5%;
+    background-color:rgba(250,250,250,.7);
+    padding:1%;
+   /*margin-bottom: 10em;*/
+}
+body{
+  margin:0;
+  width:100%;
+  min-height: 100vh;
+  padding-bottom: 16%;
+  position: relative;
+  
+}
+.thumbnail-gallery{
+  border:solid 1px black;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.musicpage h2,.musicpage p{
+ color:white;
+}
+
+.musicpage div{
+  padding:.25em 0em;
+    width:25%;
+    margin:.5em;
+    background: url(https://ae01.alicdn.com/kf/HTB19iDWQVXXXXbcXFXXq6xXFXXXt/SJOLOON-baby-girl-photography-backdrops-carton-theme-background-graffiti-the-wall-photo-background-for-photo-studio.jpg_640x640.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+         border-radius: 25%;
+         text-align:center;
+         line-height: 2px;
+
+} 
+.musicpage img{
+  width:100%;
+  height:75%;
+    
+}
+.musicpage {
+   background-image: url("https://wallpaperbits.com/wp-content/uploads/2018/05/red-black-and-white-wallpaper-designs-black-and-red-wallpaper-design.jpg");
+   background-color: grey;
+}
+.musicpage h1{
+  color:black;
+  
+}
+footer{
+  background-color:lightblue;
+  border-top:solid 3px black;
+  width:100%;
+  bottom:0;
+   display:flex;
+  align-content:flex-end;
+  justify-content:space-around;
+  width:100%;
+  height:8%;
+  position: absolute;
+  align-items:center;
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+.fa-snapchat {
+    /*text-align*/
+    text-decoration: none;
+    color: yellow;
+}
+
+.fa-snapchat:hover {
+    opacity: 0.7;
+    color:violet ;
+}
+/*Seaspage code */
+.about h1 {
+  font-size:400%;
+  background-color: white;
+}
+.about p{
+  font-size: 300%;
+}
+.about{
+ background-color: grey;
+  background: url("../images/original.gif") no-repeat fixed;
+  background-size:cover; 
+  text-align:center;
+}
+.container{
+  position:relative; 
+  width: 100%;
+  margin:0 auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(0,55,73,.7);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.heros{
+  width: 100%;
+  
+}
+.text2 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
